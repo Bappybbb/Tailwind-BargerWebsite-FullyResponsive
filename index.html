@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+
+         <!-- CSS link -->
+<link rel="stylesheet" href="./css/main.css">
+ <title> Burger || WebSite</title>
+
+  <!-- Favicon -->
+
+  <link rel="shotcut icon" href="./css/image/favicon.png">
+
+        <!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+       <!-- Remix Icon  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+       <!-- Swiper's css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+
+ </head>
+ 
+
+    <body>
+
+     <!--  ~~~~~~~~~~~~Header~~~~~~~~~~~~ -->
+      <header  class="bg-primaryColor fixed top-0 left-0 w-full z-50">
+ 
+        <nav class="container relative h-14 flex justify-between items-center">
+              <div>
+                    <a class="text-2xl uppercase font-oswald"   href="#">
+                     Bur<span class="text-secondaryColor ">ger</span>
+                    </a>
+              </div>
+
+              <div id="nav-menu"  class="hidden   absolute top-0 left-0 w-full py-14 bg-primaryColor
+               border-b border-secondaryColor md:block md:static md:py-0
+               md:border-none md:w-auto md:ml-auto ">
+                  <ul class="flex flex-col text-center gap-5 md:flex-row">
+                      <li>
+                     <a href="#home" class="nav__link  hover:text-secondaryColor ease-in duration-200">Home</a>
+                   </li>
+                   <li>
+                     <a href="#about"  class=" nav__link hover:text-secondaryColor ease-in duration-200">About</a>
+                   </li>
+                   <li>
+                     <a href="#menu"  class="nav__link  hover:text-secondaryColor ease-in duration-200">Menu</a>
+                   </li>
+                   <li>
+                     <a href="#review"  class="nav__link  hover:text-secondaryColor ease-in duration-200">Review</a>
+                   </li>
+                   <li>
+                     <a href="#contact"  class="nav__link  hover:text-secondaryColor ease-in duration-200">Contact</a>
+                   </li>
+                  </ul>
+                                <!-- close icon -->
+                  <div id="nav-close" class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer
+                  md:hidden">
+                     <i class="ri-close-line"></i>
+                  </div>
+              </div>
+                                <!-- Moon Icon -->
+              <div class="flex items-center gap-5">
+                     <a class="ri-moon-line cursor-pointer ml-4 text-xl"></a>
+                               <!-- hamberger -->
+                     <div  class="md:header" id="hamberger">
+                            <a class="ri-menu-2-line  cursor-pointer text-xl"></a>
+                     </div>
+              </div>
+        </nav>
+        
+      </header>
+
+
+                 <!-- Home -->
+
+      <main>
+            <section  id="home">
+              <div class="  container flex flex-col items-center gap-10
+              md:flex-row  ">
+                     <div class="mx-auto  md:basis-1/2 lg:basis-2/5
+                      animate-movingY">
+                            <img class="w-60"  src="./css/image/home-image.png" alt="home image">
+                     </div>
+
+                     <div class="text-center md:basis-1/2 md:text-start lg:basis-3/5">
+                           <h1  class="home__title">HAPPY WITH TESTY BURGER.</h1>
+                           <div class="seperator  mx-auto  md:mx-0"></div>
+
+                           <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore.</p>
+                           
+                        <div class="text-base flex items-center justify-center gap-4 py-10
+                      md:justify-start  md:gap-20">
+
+                            <div class="text-center  ">
+                                 <i class="fa-solid fa-utensils  text-secondaryColor text-4xl"></i> 
+                                 <br/> 
+                                 Delicious
+                            </div>
+
+                            <div   class="text-center" >
+                                 <i class="fa-solid fa-droplet   text-secondaryColor text-4xl"></i> 
+                                 <br/> 
+                                 Fresh
+                            </div>
+
+                            <div  class="text-center" >
+                                 <i class="fa-brands fa-envira   text-secondaryColor text-4xl"></i> 
+                                 <br/> 
+                                 Organic
+                            </div>
+
+                        </div>
+
+                         <a  class="btn   btn-primary  " href="#">learn more</a>
+
+                    </div>
+              </div>
+            </section>
+
+         <!-- Catagory -->
+
+ 
+       <section id="catagory">
+              <div  class="container flex flex-col gap-5  md:flow-row">
+
+                     <!-- card 1 -->
+                    <div  class="bg-secondaryColor flex  py-3 rounded-lg overflow-hidden md:flex-1">
+                            <div class="basis-1/3 relative">
+                                   
+                                   <img src="./css/image/burger-1.png" alt="catagory image"
+                                   class="absolute w-28  -bottom-4   -left-4">
+                            </div>
+                      <div>
+                            <div class="mb-2">
+                                   <h4  class="card__title">Food</h4>
+                            <p  class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+                            </div>
+                            <a class="text-black cursor-pointer" href="#">Buy online</a>
+                      </div>
+                     </div>
+                     <!-- card 2 -->
+                     <div  class="bg-redColor flex  py-3 rounded-lg overflow-hidden  md:flex-1">
+                            <div class="basis-1/3 relative">
+                                   
+                                   <img src="./css/image/snack-1.png" alt="catagory image"
+                                   class="absolute w-28  -bottom-4   -left-4">
+                            </div>
+                      <div>
+                            <div class="mb-2">
+                                   <h4  class="card__title">Snacks</h4>
+                            <p  class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+                            </div>
+                            <a class="text-secondaryColor cursor-pointer" href="#">Buy online</a>
+                      </div>
+                     </div>
+                     <!-- card 3 -->
+                       <div  class="bg-greenColor flex  py-3 rounded-lg overflow-hidden  md:flex-1">
+                            <div class="basis-1/3 relative">
+                                   
+                                   <img src="./css/image/beverage-2.png" alt="catagory image"
+                                   class="absolute w-28  -bottom-4   -left-4">
+                            </div>
+                      <div>
+                            <div class="mb-2">
+                                   <h4  class="card__title">Food</h4>
+                            <p  class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+                            </div>
+                            <a class="text-secondaryColor cursor-pointer" href="#">Buy online</a>
+                      </div>
+                     </div>
+              </div>
+       </section>
+ 
+
+
+
+
+      </main>
+
+     
+<script src="./css/main.js"></script>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
+  </body>
+ </html> 
+
+
+
+
+
+ 
